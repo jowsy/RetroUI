@@ -7,5 +7,5 @@
     
     <SolidColorBrush x:Key="RetroSilver" Color="#c0c0c0"/>
 
-    <!--<SolidColorBrush Color="White" x:Key="ScrollHatchBrush"/>-->
+    <SolidColorBrush Color="White" x:Key="ScrollHatchBrush"/>
 </ResourceDictionary>

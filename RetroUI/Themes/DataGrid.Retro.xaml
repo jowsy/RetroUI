@@ -3,6 +3,9 @@
                     xmlns:retroUi="clr-namespace:RetroUI"
                     xmlns:themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
 
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Colors.Retro.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
     <Style TargetType="{x:Type DataGridCell}">
         <Setter Property="BorderThickness" Value="0" />
         <Setter Property="Padding" Value="3" />

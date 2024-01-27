@@ -2,6 +2,9 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:RetroUI">
 
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Colors.Retro.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
     <local:TreeViewLineConverter x:Key="LineConverter"/>
     
     <Style x:Key="ExpandCollapseToggleStyle" TargetType="{x:Type ToggleButton}">
